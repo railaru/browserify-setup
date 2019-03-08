@@ -1,0 +1,24 @@
+$mobile-side-margin: 10px;
+
+
+//mobile
+.container{
+    margin: 0 $mobile-side-margin / 2;
+    padding: 0 $mobile-side-margin / 2;
+}
+//desktop
+@media (min-width: $breakpoint-large){    
+    .container{
+        margin: 0 auto;
+        padding: 0 25px;        
+        max-width: 1230px;
+    }
+}
+
+// xl desktop
+@media (min-width: $breakpoint-xl){
+    .container{        
+        padding: 0 30px;        
+        max-width: 1500px;
+    }
+}

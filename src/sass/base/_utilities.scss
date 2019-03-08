@@ -1,0 +1,37 @@
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+@mixin center-bg-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin contain-bg-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@mixin clearfix(){
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.clearfix{
+    @include clearfix();
+}
+
+.centered-parent{
+    display: flex;
+    .centered-child{
+        margin: auto;
+    }
+}

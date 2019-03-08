@@ -1,0 +1,2 @@
+console.log('this as console log from regular js');
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlZ3VsYXIuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoiYnVuZGxlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ3RoaXMgYXMgY29uc29sZSBsb2cgZnJvbSByZWd1bGFyIGpzJyk7Il19
