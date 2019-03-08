@@ -63,7 +63,8 @@ gulp.task('autoprefixer', () =>
         .pipe(sourcemaps.init())
         .pipe(autoprefixer({
           browsers: ['last 3 versions'],
-          cascade: false
+          cascade: false,
+          grid: "autoplace",
         }))
         .pipe(concat(outputFile_css))
         .pipe(sourcemaps.write('.'))
