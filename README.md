@@ -54,5 +54,6 @@ gulp production
 * [Browserify](http://browserify.org/) - Browserify lets you require('modules') in the browser by bundling up all of your dependencies.
 
 ## Authors
- [Rutenis Raila](https://github.com/railaru) 
- [Bartek Laskowski](https://github.com/und3rdg) 
+
+ - [Rutenis Raila](https://github.com/railaru)   
+ - [Bartek Laskowski](https://github.com/und3rdg)
