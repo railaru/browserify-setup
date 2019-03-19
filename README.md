@@ -7,7 +7,7 @@ Vanilla JS is used for basic DOM operations and CSS Grid is used for layout.
 ## Features
 
  - Compile [Sass](https://sass-lang.com/)  to CSS
- - Bundle all individual JS files to 1 bundle
+ - Bundle all individual JS files to 1 file
  - ES6 modules
  - Generate a font out individual SVG files for scaling, fast color changing, good browser support (IE10+)
  - CSS autoprefixing
